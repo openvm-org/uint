@@ -3,6 +3,9 @@ version = 2
 ignore = [
     { id = "RUSTSEC-2024-0388", reason = "this is an unmaintained transitive subdep of a dev dep" },
     { id = "RUSTSEC-2024-0436", reason = "this is an unmaintained transitive subdep of a dep" },
+    { id = "RUSTSEC-2025-0141", reason = "this is an unmaintained dep, but we support it as a feature" },
+    { id = "RUSTSEC-2025-0020", reason = "pyo3 support does not call PyString::from_object" },
+    { id = "RUSTSEC-2026-0177", reason = "pyo3 support does not use the affected closure API" },
 ]
 
 [bans]
